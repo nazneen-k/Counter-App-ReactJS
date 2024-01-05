@@ -1,0 +1,47 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #DBE2EF;
+  border-radius: 15px;
+  width: 45%;
+  margin-top: 10%;
+  color: #112D4E;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  width: 35%;
+  border-radius: 5px;
+  padding: 10px;
+  color: #112D4E;
+  background-color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 80%;
+    margin-top: 20%;
+  }
+
+  button {
+    width: 100%;
+  }
+}
